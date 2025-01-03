@@ -331,7 +331,7 @@ else
   call s:SetHighlight('jsTemplateBraces', s:red, '', '')
   call s:SetHighlight('jsTemplateExpression', s:red, '', '')
   call s:SetHighlight('jsThis', s:red, '', '')
-  call s:SetHighlight('jsUndefined', s:orange, '', '')
+  call s:SetHighlight('jsUndefined', s:yellow, '', '')
 endif
 
 " MaxMEllon/vim-jsx-pretty
