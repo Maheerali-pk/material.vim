@@ -335,8 +335,8 @@ else
 endif
 
 " MaxMEllon/vim-jsx-pretty
-call s:SetHighlight('jsxTag', s:cyan, '', '')
-call s:SetHighlight('jsxTagName', s:pink, '', '')
+call s:SetHighlight('jsxTag', s:cyan, '', 'bold')
+call s:SetHighlight('jsxTagName', s:pink, '', 'bold')
 call s:SetHighlight('jsxComponentName', s:yellow, '', '')
 call s:SetHighlight('jsxCloseTag', s:cyan, '', '')
 call s:SetHighlight('jsxEscapeJs', s:fg, '', '')
@@ -381,9 +381,9 @@ call s:SetHighlight('lessFunction', s:blue, '', '')
 call s:SetHighlight('lessVariable', s:purple, '', '')
 
 " HTML
-call s:SetHighlight('htmlTagName', s:pink, '', '')
-call s:SetHighlight('htmlEndTag', s:cyan, '', '')
-call s:SetHighlight('htmlTag', s:cyan, '', '')
+call s:SetHighlight('htmlTagName', s:pink, '', 'bold')
+call s:SetHighlight('htmlEndTag', s:cyan, '', 'bold')
+call s:SetHighlight('htmlTag', s:cyan, '', 'bold')
 call s:SetHighlight('htmlSpecialTagName', s:yellow, '', '')
 call s:SetHighlight('htmlArg', s:purple, '', 'italic')
 call s:SetHighlight('htmlTitle', s:fg, '', '')
