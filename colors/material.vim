@@ -307,7 +307,7 @@ if g:material_theme_style !~ '-community$'
   call s:SetHighlight('jsThis', s:cyan, '', 'italic')
   call s:SetHighlight('jsTry', s:cyan, '', 'italic')
   call s:SetHighlight('jsTryCatchBraces', s:cyan, '', '')
-  call s:SetHighlight('jsUndefined', s:cyan, '', '')
+  call s:SetHighlight('jsUndefined', s:yellow, '', '')
 else
   call s:SetHighlight('jsArrowFunction', s:purple, '', '')
   call s:SetHighlight('jsAsyncKeyword', s:purple, '', '')
